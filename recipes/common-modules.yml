@@ -1,0 +1,15 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/module-v1.json
+
+modules:
+  - type: dnf
+    repos:
+        copr:
+          - wezfurlong/wezterm-nightly
+        cleanup: true
+    install:
+      packages:
+        - tailscale
+        - wezterm
+
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
