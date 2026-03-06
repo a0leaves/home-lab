@@ -6,8 +6,8 @@ name: aldebaran
 description: This is my personal daily-driver OS image. It's a Dell Latitude 3190 2-in-1.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/a0leaves/bluebiri/bluebiri
-image-version: stable
+base-image: ghcr.io/a0leaves/bluebiri
+image-version: latest
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
