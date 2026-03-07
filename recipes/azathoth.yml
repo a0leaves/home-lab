@@ -14,9 +14,9 @@ image-version: latest
 modules:
   - type: files
     files:
-      - source: system/usr/lib/tmpfiles.d/
+      - source: "system/usr/lib/tmpfiles.d/linger.conf"
         destination: /
-      - source: system/usr/lib/systemd/system/
+      - source: "system/usr/lib/systemd/system/setsebool-jellyfin.service"
         destination: /
 
   - type: systemd
