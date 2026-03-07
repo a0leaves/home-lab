@@ -14,17 +14,12 @@ image-version: latest
 modules:
   - type: files
     files:
-      - source: system/usr/lib/tmpfiles.d/linger.conf
-        destination: /
-      - source: system/usr/lib/systemd/system/setsebool-jellyfin.service
+      - source: system
         destination: /
 
   - type: systemd
-    system:
-      enabled:
-        - setsebool-jellyfin.service
     user:
       enabled:
         - podman-auto-update.timer
 
-  - from-file: common-modules.yml
+  - type: signing # this sets up the proper policy & signing files for signed images to work fully
