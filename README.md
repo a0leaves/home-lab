@@ -2,11 +2,15 @@
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
-After setup, it is recommended you update this README to describe your custom image.
+## Changelog
+# Azathoth
+- Enabled linger with `tmpfiles.d/linger.conf`
+- Enabled hardware acceleration SELinux permissions for rootless Jellyfin container with `setsebool-jellyfin.service`
+- Enabled Podman auto-updates with `podman-auto-update.timer`
 
 ## Installation
 
-> [!WARNING]  
+> [!WARNING]
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
 To rebase an existing atomic Fedora installation to the latest build:
