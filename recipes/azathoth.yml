@@ -16,8 +16,6 @@ modules:
     files:
       - source: "system/usr/lib/tmpfiles.d/linger.conf"
         destination: /
-      - source: "system/usr/lib/systemd/system/setsebool-jellyfin.service"
-        destination: /
 
   - type: systemd
     system:
