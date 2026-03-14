@@ -14,7 +14,7 @@ image-version: latest
 modules:
   - type: files
     files:
-      - source: "system/usr/lib/tmpfiles.d/linger.conf"
+      - source: system/usr/lib/tmpfiles.d/linger.conf
         destination: /
 
   - type: systemd
