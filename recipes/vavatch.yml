@@ -6,8 +6,8 @@ name: vavatch
 description: This is my personal desktop OS image. The machine that runs this also functions as the always-on host for the core infrastructure of my home lab.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/secureblue/securecore-main-hardened
-image-version: latest
+base-image: ghcr.io/ublue-os/ucore-hci
+image-version: stable
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
