@@ -6,7 +6,7 @@ modules:
     repos:
         cleanup: true
         files:
-          - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f44/anda/terra/release/terra.repo
+          - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
         copr:
           - varlad/zellij
     install:
