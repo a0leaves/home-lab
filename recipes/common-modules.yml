@@ -5,13 +5,10 @@ modules:
   - type: dnf
     repos:
         cleanup: true
-        files:
-          - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
         copr:
           - varlad/zellij
     install:
       packages:
         - zellij
-        - walker
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
