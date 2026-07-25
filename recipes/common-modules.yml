@@ -4,9 +4,11 @@
 modules:
   - type: dnf
     repos:
+        cleanup: true
+        files:
+          - https://raw.githubusercontent.com/terrapkg/packages/refs/heads/f44/anda/terra/release/terra.repo
         copr:
           - varlad/zellij
-        cleanup: true
     install:
       packages:
         - zellij
