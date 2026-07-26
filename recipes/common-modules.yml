@@ -4,11 +4,10 @@
 modules:
   - type: dnf
     repos:
-        cleanup: true
-        copr:
-          - varlad/zellij
+      cleanup: true
+      copr:
+        - varlad/zellij
     install:
       packages:
         - zellij
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully

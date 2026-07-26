@@ -13,3 +13,5 @@ image-version: latest
 # you can include multiple instances of the same module
 modules:
   - from-file: common-modules.yml
+  - from-file: quadlet-common-modules.yml
+  - from-file: jellyfin-modules.yml
