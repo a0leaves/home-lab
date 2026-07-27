@@ -29,6 +29,7 @@ jobs:
           # !! Add your recipes here
           - azathoth.yml
           - aldebaran.yml
+          - etidorpha.yml
           - vavatch.yml
     steps:
       # the build is fully handled by the reusable github action

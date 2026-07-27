@@ -6,7 +6,6 @@ modules:
     files:
       - source: linger-system
         destination: /
-
   - type: systemd
     user:
       enabled:
