@@ -12,6 +12,13 @@ image-version: latest
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - type: systemd
+    system:
+      masked:
+        - sleep.target
+        - suspend.target
+        - hibernate.target
+        - hybrid-sleep.target
   - from-file: quadlet-common-modules.yml
   - from-file: jellyfin-modules.yml
   - from-file: common-modules.yml
