@@ -4,7 +4,7 @@
 modules:
   - type: files
     files:
-      - source: linger-system
+      - source: system-linger
         destination: /
   - type: systemd
     user:

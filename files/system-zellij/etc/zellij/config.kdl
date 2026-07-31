@@ -1,0 +1,14 @@
+keybinds {
+    shared_except "locked" {
+        unbind "Alt left"
+        unbind "Alt down"
+        unbind "Alt up"
+        unbind "Alt right"
+    }
+}
+
+theme "catppuccin-latte"
+default_shell "fish"
+attach_to_session true
+show_startup_tips false
+show_release_notes false

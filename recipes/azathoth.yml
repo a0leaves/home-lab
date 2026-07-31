@@ -19,6 +19,6 @@ modules:
         - suspend.target
         - hibernate.target
         - hybrid-sleep.target
-  - from-file: quadlet-common-modules.yml
+  - from-file: common-modules-quadlets.yml
   - from-file: jellyfin-modules.yml
   - from-file: common-modules.yml
