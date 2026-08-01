@@ -1,4 +1,4 @@
-keybinds clear-defaults=false {
+keybinds {
     locked {
         bind "Ctrl g" { SwitchToMode "normal"; }
     }
@@ -244,6 +244,9 @@ plugins {
     status-bar location="zellij:status-bar"
     strider location="zellij:strider"
     tab-bar location="zellij:tab-bar"
+    welcome-screen location="zellij:session-manager" {
+        welcome_screen false
+    }
 }
 
 // Plugins to load in the background when a new session starts
