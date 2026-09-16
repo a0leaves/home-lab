@@ -270,7 +270,7 @@ theme "catppuccin-latte"
 // Choose the base input mode of zellij.
 // Default: normal
 // 
-default_mode "normal"
+default_mode "locked"
  
 // Choose the path to the default shell that zellij will use for opening new panes
 // Default: $SHELL
@@ -373,7 +373,7 @@ default_layout "compact"
 // otherwise this will error if such a session exists.
 // Default: <RANDOM>
 // 
-// session_name "My singleton session"
+session_name "demhe"
  
 // When `session_name` is provided, attaches to that session
 // if it is already running or creates it otherwise.
